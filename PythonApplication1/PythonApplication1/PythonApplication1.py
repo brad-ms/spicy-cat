@@ -5,10 +5,8 @@ def fib(x):
     while b < x:
         print(b, end=' ', flush = True)
         a, b = b, a + b
-fib(10000)
-
+fib(100)
 print()
-
 def prime(i):
     if i<=1:
         return False
@@ -23,7 +21,3 @@ if prime(i):
 else:
     print(f"{i} is not prime")
 
-
-x = 10
-y = 5
-print(x**y)
